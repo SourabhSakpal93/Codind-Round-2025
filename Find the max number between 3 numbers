@@ -1,0 +1,25 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Find the max number between 3 numbers");
+		Scanner sc=new Scanner(System.in);
+		int a,b,c;
+		System.out.println("Enter First Number Here :");
+		a=sc.nextInt();
+		System.out.println("Enter Second Number Here :");
+		b=sc.nextInt();
+		System.out.println("Enter Third Number Here :");
+		c=sc.nextInt();
+		
+		if(a>b&&a>c){
+		    System.out.println(a+" is Greater");
+		}
+		else if(b>a&&b>c){
+		    System.out.println(b+" is Greater");
+		}
+		else{
+		    System.out.println(c+" Is a Greater");
+		}
+	}
+}
