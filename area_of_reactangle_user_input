@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Find reactangle Area from User");
+		int len,br,area;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Length of reactangle");
+		len=sc.nextInt();
+		System.out.println("Enter Bridth of reactangle");
+		br=sc.nextInt();
+		
+		area=len*br;
+		System.out.println("Area of reactangle :"+area);
+	}
+}
