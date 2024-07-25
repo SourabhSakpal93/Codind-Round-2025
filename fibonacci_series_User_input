@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		int n;
+		Scanner obj = new Scanner(System.in);
+		System.out.println("Enter Here Number");
+		n=obj.nextInt();
+		
+		int firstNumber=0;
+		int secondNumber=1;
+		System.out.println("Fibonnaci Series Print Till "+n+" Term");
+		
+		for (int i=1;i<=n ;i++ ){
+		    System.out.print(firstNumber+" ");
+		    int nextTerm=firstNumber+secondNumber;
+		    firstNumber=secondNumber;
+		    secondNumber=nextTerm;
+		} 
+	}
+}
